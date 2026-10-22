@@ -1,0 +1,1112 @@
+{
+  "fixture": {
+    "id": "HUM-107",
+    "label": "独幕放映机 · 25/75 型号代表",
+    "fictional": true
+  },
+  "answers": [
+    {
+      "questionId": "Q01",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q02",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q03",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q04",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q05",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q06",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q07",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q08",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q09",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q10",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q11",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q12",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q13",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q14",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q15",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q16",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q17",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q18",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q19",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q20",
+      "optionId": "b"
+    }
+  ],
+  "manual": {
+    "version": "pm-1",
+    "scoringVersion": "hum-1",
+    "serial": "HUM2-107-L43PCPZGP",
+    "result": {
+      "version": "hum-1",
+      "scores": {
+        "energy": 25,
+        "expression": 75,
+        "navigation": 75,
+        "connection": 25
+      },
+      "typeKey": "0110",
+      "readings": {
+        "energy": {
+          "score": 25,
+          "band": "low",
+          "dominant": "low",
+          "intensity": 50
+        },
+        "expression": {
+          "score": 75,
+          "band": "high",
+          "dominant": "high",
+          "intensity": 50
+        },
+        "navigation": {
+          "score": 75,
+          "band": "high",
+          "dominant": "high",
+          "intensity": 50
+        },
+        "connection": {
+          "score": 25,
+          "band": "low",
+          "dominant": "low",
+          "intensity": 50
+        }
+      },
+      "fingerprint": "hum-1-0d3c744c"
+    },
+    "device": {
+      "key": "0110",
+      "id": "HUM-107",
+      "name": "独幕放映机",
+      "positioning": "愿意表达自己的感受，却只慢慢开放观众席的自由创作者。",
+      "color": "#BDA8DD",
+      "ink": "#382849",
+      "shape": "projector",
+      "concept": "架着大小双卷盘的小放映机，机身有表情屏与散热孔，侧面镜头投出一束淡色光。",
+      "tags": [
+        "私人场次",
+        "直觉剪辑",
+        "真心有声"
+      ],
+      "description": "不急着让所有人懂，遇到对的人会放完整场。",
+      "strength": "能跟随当下的感受创造、选择，也愿意向信任的人讲出真实体验。",
+      "fault": "灵感一来就想改剧本，已经约好的自己也可能被临时换掉片单。",
+      "hidden": "熟悉之后很会用具体的故事、画面和比喻说明那些难说的感受。",
+      "environment": "可自由改动的私人时间、少量可信任的听众和不必赶进度的尝试。",
+      "warranty": "本片无需迎合所有观众。暂停、改剪、重新上映，都由你决定。"
+    },
+    "introduction": "不急着让所有人懂，遇到对的人会放完整场。",
+    "keywords": [
+      "私人场次",
+      "直觉剪辑",
+      "真心有声"
+    ],
+    "certification": {
+      "mark": "HUM LAB / NS-01",
+      "label": "非标准件 · 妥善对待",
+      "disclaimer": "虚构产品标识，仅供娱乐与自我探索，不代表心理测量或质量认证。"
+    },
+    "chapters": [
+      {
+        "id": "identity",
+        "number": "01",
+        "title": "产品身份",
+        "shortTitle": "身份",
+        "subtitle": "非标准件，也有专属档案",
+        "entries": [
+          {
+            "id": "identity.description",
+            "label": "产品介绍",
+            "text": "不急着让所有人懂，遇到对的人会放完整场。",
+            "source": {
+              "ruleId": "identity.description:0110",
+              "topic": "identity-overview",
+              "conditions": {
+                "typeKey": "0110"
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "factory",
+        "number": "02",
+        "title": "出厂设置",
+        "shortTitle": "设置",
+        "subtitle": "刻度比标签，多说一点",
+        "entries": [
+          {
+            "id": "factory.energy",
+            "label": "独处回血",
+            "text": "热闹可以很好玩，恢复却常发生在散场之后。你把注意力收回自己这边，电量才慢慢回升。",
+            "source": {
+              "ruleId": "factory.energy:low",
+              "topic": "energy-supply-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "factory.expression",
+            "label": "实时表达",
+            "text": "感受更容易直接出现在语气和话里。说出来也在帮助你整理，不一定是已经想好了最后结论。",
+            "source": {
+              "ruleId": "factory.expression:high",
+              "topic": "emotion-processing-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "factory.navigation",
+            "label": "灵感导航",
+            "text": "眼前的新线索常比旧路线更能点燃你。你习惯在尝试中找到方向，做着做着才看见下一步。",
+            "source": {
+              "ruleId": "factory.navigation:high",
+              "topic": "action-routing-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "factory.connection",
+            "label": "慢热防护",
+            "text": "相处过几次，关系才会逐步升温。你的访问权限按熟悉程度开放，客气并不等于拒绝连接。",
+            "source": {
+              "ruleId": "factory.connection:low",
+              "topic": "relationship-entry-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "charging",
+        "number": "03",
+        "title": "充电方式",
+        "shortTitle": "充电",
+        "subtitle": "电量是自己的，不必一直满格",
+        "entries": [
+          {
+            "id": "charging.method",
+            "label": "你的周五充电口",
+            "text": "你给周五夜晚选了安静模式。先回到不用接话的空间，连沙发都比新安排更像一个好邀请。",
+            "source": {
+              "ruleId": "charging.method:friday-sofa",
+              "topic": "restorative-activity",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q01",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "charging.drain",
+            "label": "高耗电场景",
+            "text": "连续几段需要接话、留意他人反应的相处。每一场都不讨厌，连起来却像开了整天外放。",
+            "source": {
+              "ruleId": "charging.drain:low",
+              "topic": "energy-draining-situation",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "charging.signal",
+            "label": "电量下降时",
+            "text": "到家后连选部电影都嫌它有片头。人已经坐下，注意力还需要一会儿才肯落座。",
+            "source": {
+              "ruleId": "charging.signal:low",
+              "topic": "low-energy-visible-behavior",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "charging.tip",
+            "label": "给空白一天留白",
+            "text": "意外放假时，你想把大部分时间留给自己。可以只安排一件喜欢的小事，剩下的空白无需再找事情填满。",
+            "source": {
+              "ruleId": "charging.tip:day-off-private",
+              "topic": "small-energy-allocation",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q05",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "faults",
+        "number": "04",
+        "title": "故障表现",
+        "shortTitle": "故障",
+        "subtitle": "一些偶发的小卡顿，并非设备报废",
+        "entries": [
+          {
+            "id": "faults.navigation",
+            "label": "故障001 · 支线增生",
+            "text": "准备做一件事，途中发现三件更有意思的事。忙了半天，主任务还在门口等你签收。",
+            "source": {
+              "ruleId": "faults.navigation:high",
+              "topic": "task-switching-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "faults.expression",
+            "label": "故障002 · 一杯咖啡，现场连载",
+            "text": "按照你选的反应，咖啡刚洒，感受就会跟着出场。偶尔故事已经讲完一集，心情才刚找到片名。",
+            "source": {
+              "ruleId": "faults.expression:coffee-live",
+              "topic": "emotion-revision-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q02",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "faults.connection",
+            "label": "故障003 · 熟络延迟",
+            "text": "其实觉得对方挺不错，却想再找个自然的时机靠近。几个“下次吧”之后，时机自己先下班了。",
+            "source": {
+              "ruleId": "faults.connection:low",
+              "topic": "relationship-timing-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "prohibited",
+        "number": "05",
+        "title": "禁止操作",
+        "shortTitle": "禁忌",
+        "subtitle": "请勿强行按下这些按钮",
+        "entries": [
+          {
+            "id": "prohibited.boundary",
+            "label": "勿把冒险等同开放权限",
+            "text": "愿意临时换目的地，不代表愿意临时多认识五个人。改路线和加同行者，请分两次征求意见。",
+            "source": {
+              "ruleId": "prohibited.boundary:adventure-not-strangers",
+              "topic": "connection-consent",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  },
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high",
+                "connection:low"
+              ]
+            }
+          },
+          {
+            "id": "prohibited.decisions",
+            "label": "勿把热情当作无限续航",
+            "text": "说出喜欢一件事，不等于答应把每个晚上都交给它。请把兴趣、时间与承诺分开确认。",
+            "source": {
+              "ruleId": "prohibited.decisions:enthusiasm-capacity",
+              "topic": "decision-load-boundary",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  },
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low",
+                "expression:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "hidden",
+        "number": "06",
+        "title": "隐藏功能",
+        "shortTitle": "隐藏",
+        "subtitle": "平时不声张，关键时候很有用",
+        "entries": [
+          {
+            "id": "hidden.practice",
+            "label": "到了现场再接招",
+            "text": "你愿意把部分打包难题留到路上解决。环境变了时，这种从眼前条件找办法的习惯可能派上用场。",
+            "source": {
+              "ruleId": "hidden.practice:luggage-onsite",
+              "topic": "practical-creative-strength",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q11",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "hidden.connection",
+            "label": "熟悉之后看得细",
+            "text": "你给关系留的观察时间，常让你记住别人不太起眼的习惯。照顾有时已经发生，对方还没来得及开口。",
+            "source": {
+              "ruleId": "hidden.connection:low",
+              "topic": "social-observation-strength",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "warning",
+        "number": "07",
+        "title": "情绪预警系统",
+        "shortTitle": "预警",
+        "subtitle": "留意日常信号，给自己一点缓冲",
+        "entries": [
+          {
+            "id": "warning.normal",
+            "label": "正常运行",
+            "text": "开心与失望都能自然传出来，话题也能来回接。表达在流动，不需要每句话都格外精彩。",
+            "source": {
+              "ruleId": "warning.normal:high",
+              "topic": "ordinary-emotion-baseline",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "warning.mild",
+            "label": "轻度过载信号",
+            "text": "如果语速越来越快、同一句又说了一遍，先给自己和对方留一个能接话的停顿。",
+            "source": {
+              "ruleId": "warning.mild:high",
+              "topic": "early-emotion-change",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "warning.low",
+            "label": "明显耗电信号",
+            "text": "如果说了很多却越来越难抓住重点，可以把这场交流先暂停。继续输出不一定能让电量回来。",
+            "source": {
+              "ruleId": "warning.low:high",
+              "topic": "depleted-emotion-change",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "warning.recovery",
+            "label": "推荐恢复方式",
+            "text": "先找一个熟悉的人，说清今天最需要被接住的一件事。你不必向所有人解释，选一个可靠的接收端就够。",
+            "source": {
+              "ruleId": "warning.recovery:trusted-voice",
+              "topic": "support-when-depleted",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  },
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high",
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "number": "08",
+        "title": "社交连接指南",
+        "shortTitle": "连接",
+        "subtitle": "这一页，可以留给在意你的人",
+        "entries": [
+          {
+            "id": "social.start",
+            "label": "从下次见面开始",
+            "text": "一句夸奖不必立刻换来全部近况。按你选的相处速度，对方可以留个小话题，等下一次自然碰面时再接上。",
+            "source": {
+              "ruleId": "social.start:neighbor-next-time",
+              "topic": "relationship-opening-method",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q04",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "social.response",
+            "label": "回应方式",
+            "text": "可以认真接住当下的感受，再确认希望你倾听还是一起想办法。热烈的表达也需要被完整听见。",
+            "source": {
+              "ruleId": "social.response:high",
+              "topic": "listening-and-response-request",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "social.boundary",
+            "label": "相处边界",
+            "text": "不要把每一段空闲都当成可预约时段。留在家里的时间，也可能早已约给了自己。",
+            "source": {
+              "ruleId": "social.boundary:low",
+              "topic": "availability-agreement",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "environment",
+        "number": "09",
+        "title": "最佳运行环境",
+        "shortTitle": "环境",
+        "subtitle": "把日子调成比较舒服的频率",
+        "entries": [
+          {
+            "id": "environment.pace",
+            "label": "生活节奏",
+            "text": "把日程留成可以挪动的积木，重要边界固定，具体走法可试。太满的安排会挤掉你发现新办法的空间。",
+            "source": {
+              "ruleId": "environment.pace:high",
+              "topic": "daily-schedule-shape",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "environment.talk",
+            "label": "交流方式",
+            "text": "你听完歌后愿意很快分享触动。可以一起走着聊、边说边补充的场合，会比等待正式总结更自在。",
+            "source": {
+              "ruleId": "environment.talk:song-live",
+              "topic": "communication-medium",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q18",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "environment.balance",
+            "label": "独处与互动",
+            "text": "在家里或日程里留一个不被追问的私人角落。有了确定的独处余地，见面时反而能更自在地在场。",
+            "source": {
+              "ruleId": "environment.balance:low",
+              "topic": "alone-together-rhythm",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "reboot",
+        "number": "10",
+        "title": "紧急重启指南",
+        "shortTitle": "重启",
+        "subtitle": "一次只修一件小事",
+        "entries": [
+          {
+            "id": "reboot.pause",
+            "label": "步骤1 · 别顺便搬走整张床",
+            "text": "装一个架子，可能顺手改了整个角落——你愿意边做边找摆法。重启前先暂停扩大的工程，只让眼前这一小块落地。",
+            "source": {
+              "ruleId": "reboot.pause:shelf-moving",
+              "topic": "repair-step-stop",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q03",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "reboot.offload",
+            "label": "步骤2 · 换成慢速播放",
+            "text": "给自己录一小段语音，回听一次，再为它写一句标题。把最在意的那件事单独放出来，不必把全部后台一起倒出。",
+            "source": {
+              "ruleId": "reboot.offload:high",
+              "topic": "repair-step-offload",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "reboot.restore",
+            "label": "步骤3 · 照顾身体",
+            "text": "离开原来的屏幕，给自己倒水、吃点东西、伸展一下。先让身体舒服，思路不用跟着马上交作业。",
+            "source": {
+              "ruleId": "reboot.restore:low",
+              "topic": "repair-step-body-basics",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "reboot.resume",
+            "label": "步骤4 · 把下一步说小",
+            "text": "把准备做的第一件小事告诉身边人。只说这一步，不用顺便把接下来一个月都承诺出去。",
+            "source": {
+              "ruleId": "reboot.resume:talk-through-one",
+              "topic": "repair-step-next-action",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  },
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high",
+                "navigation:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "compatibility",
+        "number": "11",
+        "title": "兼容性说明",
+        "shortTitle": "兼容",
+        "subtitle": "关系靠协商，型号不决定答案",
+        "entries": [
+          {
+            "id": "compatibility.gift",
+            "label": "你带来的东西",
+            "text": "店员记住口味时，你选择保留一点距离。你给关系带来的可以是一种分寸：礼貌接住善意，也允许彼此不继续展开。",
+            "source": {
+              "ruleId": "compatibility.gift:coffee-familiar",
+              "topic": "relationship-contribution",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q20",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "compatibility.friction",
+            "label": "可能的摩擦",
+            "text": "你愿意直说感受，却也需要散场后的个人空间。对方可能以为话聊开了就应该继续黏在一起，最好提前说说续航。",
+            "source": {
+              "ruleId": "compatibility.friction:independent-direct",
+              "topic": "different-expectations-friction",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  },
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low",
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "compatibility.agreement",
+            "label": "建议的协商方式",
+            "text": "说完一轮后，请对方讲讲听到了什么。两边理解一致，比谁说得更快更完整更能推进相处。",
+            "source": {
+              "ruleId": "compatibility.agreement:high",
+              "topic": "relationship-repair-protocol",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "easterEgg",
+        "number": "12",
+        "title": "出厂彩蛋",
+        "shortTitle": "彩蛋",
+        "subtitle": "在说明书的小字里，发现一点自己",
+        "entries": [
+          {
+            "id": "easterEgg.signature",
+            "label": "型号限定彩蛋",
+            "text": "观众席不算大，但重要台词不会轻易被剪成一句“随便，都行”。",
+            "source": {
+              "ruleId": "easterEgg.signature:0110",
+              "topic": "model-signature-surprise",
+              "conditions": {
+                "typeKey": "0110"
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "easterEgg.habit",
+            "label": "散场附赠功能",
+            "text": "如果给你选的饭后安静配个片尾音效，大概是换上拖鞋时的轻轻两声。今天的精彩收好了，续集不急着开。",
+            "source": {
+              "ruleId": "easterEgg.habit:dinner-own-space",
+              "topic": "after-dinner-small-ritual",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q09",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "warranty",
+        "number": "13",
+        "title": "终身保修说明",
+        "shortTitle": "保修",
+        "subtitle": "无需提交一直表现良好的证明",
+        "entries": [
+          {
+            "id": "warranty.promise",
+            "label": "终身保修承诺",
+            "text": "你的视角不需要排片率来认证。留给自己的那一席，同样值得好灯光。",
+            "source": {
+              "ruleId": "warranty.promise:0110",
+              "topic": "model-unconditional-warranty",
+              "conditions": {
+                "typeKey": "0110"
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "warranty.care",
+            "label": "保养补充条款",
+            "text": "给自己留一段不必接住别人的时间。你的安静，不需要靠更努力的表现来换取。",
+            "source": {
+              "ruleId": "warranty.care:low",
+              "topic": "permission-to-care-for-self",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

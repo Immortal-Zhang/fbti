@@ -1,0 +1,118 @@
+import type { Question } from "@/lib/domain";
+
+export const FRIEND_VERSION = "friend-1" as const;
+/** Two observations per existing axis, one forward and one reverse. These are NOT a friend's self-test. */
+export const FRIEND_QUESTIONS: readonly Question[] = [
+  {
+    id: "F01",
+    dimension: "energy",
+    reverse: false,
+    scene: "聚会散场 · 电池盘点",
+    prompt: "聊了一晚，TA接下来通常更想怎么恢复？",
+    options: [
+      { id: "a", value: 0, text: "独自安静待着，暂时不再约人。" },
+      { id: "b", value: 1, text: "先自己歇一会儿，偶尔回两句消息。" },
+      { id: "c", value: 2, text: "独处和陪伴都可以，看当天状态。" },
+      { id: "d", value: 3, text: "再找个合拍的人聊一会儿，更放松。" },
+      { id: "e", value: 4, text: "还想一起坐坐，相处本身就能回血。" },
+    ],
+  },
+  {
+    id: "F02",
+    dimension: "expression",
+    reverse: false,
+    scene: "小事不顺 · 机身字幕",
+    prompt: "遇上一件让TA不太开心的小事，你通常怎样发现？",
+    options: [
+      { id: "a", value: 0, text: "TA多半先自己整理，过后才会说。" },
+      { id: "b", value: 1, text: "会露出一点变化，但不急着讲。" },
+      { id: "c", value: 2, text: "有时当场说，有时留着慢慢消化。" },
+      { id: "d", value: 3, text: "通常会很快说说自己的感受。" },
+      { id: "e", value: 4, text: "感受很快就在语气和话里出现。" },
+    ],
+  },
+  {
+    id: "F03",
+    dimension: "navigation",
+    reverse: false,
+    scene: "两日出游 · 路线审批",
+    prompt: "一起去一个新地方玩，TA更常采用哪种安排？",
+    options: [
+      { id: "a", value: 0, text: "先定好路线、时间和要去的地方。" },
+      { id: "b", value: 1, text: "先排个大致次序，再留一点空档。" },
+      { id: "c", value: 2, text: "计划和现场调整大约各占一半。" },
+      { id: "d", value: 3, text: "先去一个地方，再跟着新发现走。" },
+      { id: "e", value: 4, text: "到了再看，临时冒出的路线更有意思。" },
+    ],
+  },
+  {
+    id: "F04",
+    dimension: "connection",
+    reverse: false,
+    scene: "新朋友出现 · 接口配对",
+    prompt: "遇到一个聊得来的新朋友，TA通常多久会开始熟络？",
+    options: [
+      { id: "a", value: 0, text: "需要多次相处，才会放下初识的距离。" },
+      { id: "b", value: 1, text: "友好交流，但会慢慢确定相处方式。" },
+      { id: "c", value: 2, text: "取决于具体的人，有快有慢。" },
+      { id: "d", value: 3, text: "常能很快接上话，并自然约下一次。" },
+      { id: "e", value: 4, text: "一旦聊得来，很快就像认识了一阵。" },
+    ],
+  },
+  {
+    id: "F05",
+    dimension: "energy",
+    reverse: true,
+    scene: "忙完一天 · 供电方案",
+    prompt: "忙了一天终于有空，你印象里哪种陪伴方式更能让TA松下来？",
+    options: [
+      { id: "a", value: 0, text: "叫上合拍的人一起相处，越聊越舒展。" },
+      { id: "b", value: 1, text: "有人一起吃饭散步，通常更容易缓过来。" },
+      { id: "c", value: 2, text: "独自待着或找人陪都常见。" },
+      { id: "d", value: 3, text: "先给TA一段自己的时间，再聊几句。" },
+      { id: "e", value: 4, text: "让TA独自安静一阵，通常恢复得更好。" },
+    ],
+  },
+  {
+    id: "F06",
+    dimension: "expression",
+    reverse: true,
+    scene: "电影散场 · 感受出库",
+    prompt: "刚看完一部很有感触的电影，TA更常怎样分享感受？",
+    options: [
+      { id: "a", value: 0, text: "马上把感受说出来，边聊边理清。" },
+      { id: "b", value: 1, text: "通常很快讲几句最有感觉的地方。" },
+      { id: "c", value: 2, text: "当场聊和过后再聊都很常见。" },
+      { id: "d", value: 3, text: "会先放在心里，想好再分享一点。" },
+      { id: "e", value: 4, text: "多半先独自消化，隔一阵才讲。" },
+    ],
+  },
+  {
+    id: "F07",
+    dimension: "navigation",
+    reverse: true,
+    scene: "行程忽然改变 · 临时道路",
+    prompt: "原本的下午安排临时取消，TA接下来更可能怎样做？",
+    options: [
+      { id: "a", value: 0, text: "顺着眼前有趣的事走，现场决定。" },
+      { id: "b", value: 1, text: "先试试一个新点子，后面再说。" },
+      { id: "c", value: 2, text: "有时重新安排，有时临时发挥。" },
+      { id: "d", value: 3, text: "列几个替代选项，再决定次序。" },
+      { id: "e", value: 4, text: "先重排时间与步骤，确定后再行动。" },
+    ],
+  },
+  {
+    id: "F08",
+    dimension: "connection",
+    reverse: true,
+    scene: "新搭子发来消息 · 握手续约",
+    prompt: "新认识的同好提出下次一起活动，TA通常怎样接住？",
+    options: [
+      { id: "a", value: 0, text: "很自然地接着约，迅速建立熟络。" },
+      { id: "b", value: 1, text: "愿意主动接话，较快把关系延续下去。" },
+      { id: "c", value: 2, text: "有时直接约，有时再观察几次。" },
+      { id: "d", value: 3, text: "友好回应，让关系随几次相处慢慢发展。" },
+      { id: "e", value: 4, text: "保留初识的距离，熟悉之后再主动靠近。" },
+    ],
+  },
+];

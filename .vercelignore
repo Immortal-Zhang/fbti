@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+.env*
+docs/qa
+coverage
+**/*.tsbuildinfo
+**/.DS_Store

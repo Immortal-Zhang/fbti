@@ -1,0 +1,1093 @@
+{
+  "fixture": {
+    "id": "HUM-101",
+    "label": "静音档案柜 · 25/75 型号代表",
+    "fictional": true
+  },
+  "answers": [
+    {
+      "questionId": "Q01",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q02",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q03",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q04",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q05",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q06",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q07",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q08",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q09",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q10",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q11",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q12",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q13",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q14",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q15",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q16",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q17",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q18",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q19",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q20",
+      "optionId": "b"
+    }
+  ],
+  "manual": {
+    "version": "pm-2",
+    "scoringVersion": "hum-1",
+    "serial": "HUM2-101-MQI31AV6J",
+    "result": {
+      "version": "hum-1",
+      "scores": {
+        "energy": 25,
+        "expression": 25,
+        "navigation": 25,
+        "connection": 25
+      },
+      "typeKey": "0000",
+      "readings": {
+        "energy": {
+          "score": 25,
+          "band": "low",
+          "dominant": "low",
+          "intensity": 50
+        },
+        "expression": {
+          "score": 25,
+          "band": "low",
+          "dominant": "low",
+          "intensity": 50
+        },
+        "navigation": {
+          "score": 25,
+          "band": "low",
+          "dominant": "low",
+          "intensity": 50
+        },
+        "connection": {
+          "score": 25,
+          "band": "low",
+          "dominant": "low",
+          "intensity": 50
+        }
+      },
+      "fingerprint": "hum-1-72203cd2"
+    },
+    "device": {
+      "key": "0000",
+      "id": "HUM-101",
+      "name": "静音档案柜",
+      "positioning": "人类非标制造有限公司档案科出品，连发呆都有一个不对外开放的文件夹。",
+      "color": "#9BA9DC",
+      "ink": "#20253A",
+      "shape": "archive",
+      "concept": "蓝紫色的窄型档案柜，上方嵌着奶油色标签窗，下方是带矩形拉手的两层抽屉。",
+      "tags": [
+        "独处补电",
+        "有序存档",
+        "慢慢熟络"
+      ],
+      "description": "外面只回了一个“嗯”，里面已经办完情绪入库、编号和防潮。",
+      "strength": "熟人说过的小习惯会慢慢有自己的索引。别人还在问“你怎么知道”，柜里已经翻到那次随口一提。",
+      "fault": "新安排来得太密时，会一直停在“正在重新编目”，连休息也想排进目录。",
+      "hidden": "那些没有当面说出口的在意，经常已经变成替你提前办好的小事。",
+      "environment": "最好有一段没人要求你出示近况的时间。门外可以有朋友，门里可以只有一张椅子和一份不必解释的安静。",
+      "warranty": "本柜不以开门次数计算价值。今天即使只收藏了一阵风，也可以领到下班许可。"
+    },
+    "introduction": "外面只回了一个“嗯”，里面已经办完情绪入库、编号和防潮。",
+    "keywords": [
+      "独处补电",
+      "有序存档",
+      "慢慢熟络"
+    ],
+    "certification": {
+      "mark": "HUM MFG. / FICTIONAL INSPECTION",
+      "label": "出厂设置审查部 · 已阅，但没完全理解",
+      "disclaimer": "虚构产品标识，仅供娱乐与自我探索，不代表心理测量或质量认证。"
+    },
+    "chapters": [
+      {
+        "id": "identity",
+        "number": "01",
+        "title": "产品身份",
+        "shortTitle": "身份",
+        "subtitle": "出厂设置审查部：找到本人了",
+        "entries": [
+          {
+            "id": "identity.description",
+            "label": "产品介绍",
+            "text": "外面只回了一个“嗯”，里面已经办完情绪入库、编号和防潮。",
+            "source": {
+              "ruleId": "identity.description:0000",
+              "topic": "identity-overview",
+              "conditions": {
+                "typeKey": "0000"
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "factory",
+        "number": "02",
+        "title": "出厂设置",
+        "shortTitle": "设置",
+        "subtitle": "旋钮都在，厂家只是不知道谁拧的",
+        "entries": [
+          {
+            "id": "factory.energy",
+            "label": "独处充电制",
+            "text": "出门可以很开心，电表也可以认真倒退。你通常得把人类活动暂停一会儿，机身里的小维修工才肯上班。",
+            "source": {
+              "ruleId": "factory.energy:low",
+              "topic": "energy-supply-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "factory.expression",
+            "label": "情绪走内邮",
+            "text": "感受到了，嘴还没签收。你习惯先在里面拆包、分类，再决定哪一件值得寄给外面的人。",
+            "source": {
+              "ruleId": "factory.expression:low",
+              "topic": "emotion-processing-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "factory.navigation",
+            "label": "路线先领号",
+            "text": "开始之前，你喜欢给步骤排个队。事情有了次序，脑内交通协管员才会放下小旗，允许你放心开工。",
+            "source": {
+              "ruleId": "factory.navigation:low",
+              "topic": "action-routing-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:low"
+              ]
+            }
+          },
+          {
+            "id": "factory.connection",
+            "label": "熟悉感慢炖",
+            "text": "新关系先用小火，不急着煮成知己。你需要几次实际相处；礼貌微笑是试营业，不是永久拒绝接待。",
+            "source": {
+              "ruleId": "factory.connection:low",
+              "topic": "relationship-entry-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "charging",
+        "number": "03",
+        "title": "充电方式",
+        "shortTitle": "充电",
+        "subtitle": "友情供电局提醒：别接错插座",
+        "entries": [
+          {
+            "id": "charging.method",
+            "label": "周五沙发停靠许可",
+            "text": "你给周五选了安静。回到不用接话的空间，让沙发暂时取得本机托管权；今晚的“还有安排吗”可以不用再接单。",
+            "source": {
+              "ruleId": "charging.method:friday-sofa",
+              "topic": "restorative-activity",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q01",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "charging.drain",
+            "label": "临时访客占用过量",
+            "text": "一天接待太多次“就聊两句”，档案员会被迫反复起立。最后连回一个表情，都像要搬整排卷宗。",
+            "source": {
+              "ruleId": "model:0000:charging.drain:strong",
+              "topic": "energy-draining-situation",
+              "conditions": {
+                "typeKey": "0000",
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "charging.signal",
+            "label": "沙发正在接管身体",
+            "text": "到家后不想接新话题，连挑部电影都嫌片头太长。人已坐稳，注意力还在门口办理入住。",
+            "source": {
+              "ruleId": "charging.signal:low",
+              "topic": "low-energy-visible-behavior",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "charging.tip",
+            "label": "空白假日禁止擅自施工",
+            "text": "你选了把假日大部留给自己，就给空白留块空地。安排一件喜欢的小事足够，别让自由时间一到手就被开发商瓜分。",
+            "source": {
+              "ruleId": "charging.tip:day-off-private",
+              "topic": "small-energy-allocation",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q05",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "faults",
+        "number": "04",
+        "title": "故障表现",
+        "shortTitle": "故障",
+        "subtitle": "维修科已受理，暂未理解",
+        "entries": [
+          {
+            "id": "faults.navigation",
+            "label": "故障001 · 私下修订，现场断代",
+            "text": "计划在心里改了几轮，别人仍照着初版走。不是队友考古成瘾，是你的最新版还躺在私人出版社。",
+            "source": {
+              "ruleId": "faults.navigation:private-revision",
+              "topic": "task-switching-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 39
+                  },
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:low",
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "faults.expression",
+            "label": "故障002 · 现场已清，遗憾未结案",
+            "text": "咖啡洒了，你先擦桌子，把失落留在里面。桌面十秒恢复营业，心里那位拿铁纪念馆馆长可能还要坐一会儿。",
+            "source": {
+              "ruleId": "faults.expression:coffee-quiet",
+              "topic": "emotion-revision-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q02",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "faults.connection",
+            "label": "故障003 · 时机过期",
+            "text": "觉得对方不错，想找更自然的机会接近。等“自然”自己送上门时，那个时机已经提着包退休了。",
+            "source": {
+              "ruleId": "faults.connection:low",
+              "topic": "relationship-timing-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "prohibited",
+        "number": "05",
+        "title": "禁止操作",
+        "shortTitle": "禁忌",
+        "subtitle": "请勿替厂家验证这些离谱设计",
+        "entries": [
+          {
+            "id": "prohibited.boundary",
+            "label": "勿当众催交情绪",
+            "text": "请勿突然点名要求立刻表态。感受不是按一下就弹出的纸巾，连续敲外壳也不会加速出货。",
+            "source": {
+              "ruleId": "prohibited.boundary:low",
+              "topic": "expression-consent",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "prohibited.decisions",
+            "label": "禁止给休息加附件",
+            "text": "禁止因为一顿饭临时改店，就让整个星期重新办理户口迁移。改一条地址足够，不必把七天都搬出柜子。",
+            "source": {
+              "ruleId": "model:0000:prohibited.decisions:strong",
+              "topic": "decision-load-boundary",
+              "conditions": {
+                "typeKey": "0000",
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "hidden",
+        "number": "06",
+        "title": "隐藏功能",
+        "shortTitle": "隐藏",
+        "subtitle": "研发部拒绝署名，但功能确实存在",
+        "entries": [
+          {
+            "id": "hidden.practice",
+            "label": "行李箱漏带物拦截器",
+            "text": "你收行李会先核对清单。大家研究沿途看什么时，你已经把“到了才发现没带”拦在了家门口。",
+            "source": {
+              "ruleId": "hidden.practice:luggage-list",
+              "topic": "practical-creative-strength",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 39
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q11",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:low"
+              ]
+            }
+          },
+          {
+            "id": "hidden.connection",
+            "label": "熟人检索功能",
+            "text": "熟人说过的小习惯会慢慢有自己的索引。别人还在问“你怎么知道”，柜里已经翻到那次随口一提。",
+            "source": {
+              "ruleId": "model:0000:hidden.connection:strong",
+              "topic": "social-observation-strength",
+              "conditions": {
+                "typeKey": "0000",
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "warning",
+        "number": "07",
+        "title": "情绪预警系统",
+        "shortTitle": "预警",
+        "subtitle": "不是诊断，是机身冒出的日常小纸条",
+        "entries": [
+          {
+            "id": "warning.normal",
+            "label": "正常 · 安静仍有内容",
+            "text": "话不多，但该说的能到达。内部有感受，外部不必放烟花；这是正常输出方式，非音箱报废。",
+            "source": {
+              "ruleId": "warning.normal:low",
+              "topic": "ordinary-emotion-baseline",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "warning.mild",
+            "label": "留意 · 标点被扣留",
+            "text": "若开始反复检查一条已经写好的回复，先让标点下班。一个逗号不必承担整段关系的质检工作。",
+            "source": {
+              "ruleId": "warning.mild:low",
+              "topic": "early-emotion-change",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "warning.low",
+            "label": "低电 · 句子不愿起床",
+            "text": "连平时能说的小事都懒得组织时，先少接一点输入。今天的词语可能正在被窝里集体请假。",
+            "source": {
+              "ruleId": "warning.low:low",
+              "topic": "depleted-emotion-change",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "warning.recovery",
+            "label": "恢复 · 只递一张小工单",
+            "text": "需要帮忙就说一件具体的事：“能替我处理一下这个吗？”情绪外包维修科不要求先提交三千字故障自传。",
+            "source": {
+              "ruleId": "warning.recovery:low",
+              "topic": "support-when-depleted",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "number": "08",
+        "title": "社交连接指南",
+        "shortTitle": "连接",
+        "subtitle": "请先阅读，再伸手戳这台人类",
+        "entries": [
+          {
+            "id": "social.start",
+            "label": "邻居寒暄，勿升级户口普查",
+            "text": "你选择给新相遇留些距离。对方可以聊一个小话题，日后碰面再接；夸过帆布包，不代表获准检查包里的人生。",
+            "source": {
+              "ruleId": "social.start:neighbor-next-time",
+              "topic": "relationship-opening-method",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q04",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "social.response",
+            "label": "提问后请留发货时间",
+            "text": "问清楚一件事，然后等对方说完。连发问号只会让输入框看起来像被五个探照灯包围，不会更快得到答案。",
+            "source": {
+              "ruleId": "social.response:low",
+              "topic": "listening-and-response-request",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "social.boundary",
+            "label": "闭馆时间不是谜题",
+            "text": "看见“今日闭馆”就请正常离场。不要隔五分钟问一次在不在，档案员会把休息过成接待铃耐久测试。",
+            "source": {
+              "ruleId": "model:0000:social.boundary:strong",
+              "topic": "availability-agreement",
+              "conditions": {
+                "typeKey": "0000",
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "environment",
+        "number": "09",
+        "title": "最佳运行环境",
+        "shortTitle": "环境",
+        "subtitle": "生存环境部：人不一定非得耐造",
+        "entries": [
+          {
+            "id": "environment.pace",
+            "label": "给日子几颗固定螺丝",
+            "text": "开始、结束和重要约定清楚一些，你更容易安心投入。其余小事可以自由活动，不必给每颗豌豆编号。",
+            "source": {
+              "ruleId": "environment.pace:low",
+              "topic": "daily-schedule-shape",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:low"
+              ]
+            }
+          },
+          {
+            "id": "environment.talk",
+            "label": "这首歌先在心里加演",
+            "text": "你选了让音乐在心里多待一会儿。重要感受也可以先留白，别一落幕就催交观后感，掌声不是打印指令。",
+            "source": {
+              "ruleId": "environment.talk:song-internal",
+              "topic": "communication-medium",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q18",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "environment.balance",
+            "label": "一间能关门的小库房",
+            "text": "最好有一段没人要求你出示近况的时间。门外可以有朋友，门里可以只有一张椅子和一份不必解释的安静。",
+            "source": {
+              "ruleId": "model:0000:environment.balance:strong",
+              "topic": "alone-together-rhythm",
+              "conditions": {
+                "typeKey": "0000",
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "reboot",
+        "number": "10",
+        "title": "紧急重启指南",
+        "shortTitle": "重启",
+        "subtitle": "先别拆人生，拆开一顿饭也行",
+        "entries": [
+          {
+            "id": "reboot.pause",
+            "label": "步骤1 · 安装图先合上",
+            "text": "你装架子习惯先确认做法，重启也先把当前步骤停稳。图纸够用就收，不必趁一次休息重新审批整间房的命运。",
+            "source": {
+              "ruleId": "reboot.pause:shelf-preflight",
+              "topic": "repair-step-stop",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q03",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "reboot.offload",
+            "label": "步骤2 · 给心事贴三张标签",
+            "text": "写下发生了什么、自己在意什么、什么可以晚点处理。不求漂亮，先把满地的情绪零件装进三个盒子。",
+            "source": {
+              "ruleId": "reboot.offload:low",
+              "topic": "repair-step-offload",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          },
+          {
+            "id": "reboot.restore",
+            "label": "步骤3 · 养护碳基外壳",
+            "text": "离开屏幕，倒水、吃点东西、伸展一下。先检查这个需要喂养的身体，暂缓检讨整个存在的意义。",
+            "source": {
+              "ruleId": "reboot.restore:low",
+              "topic": "repair-step-body-basics",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          },
+          {
+            "id": "reboot.resume",
+            "label": "步骤4 · 只发一辆小车",
+            "text": "挑一个最小、最明确的动作开始。把杯子洗了也算重新开机，不必顺手完成文明复兴。",
+            "source": {
+              "ruleId": "reboot.resume:low",
+              "topic": "repair-step-next-action",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "compatibility",
+        "number": "11",
+        "title": "兼容性说明",
+        "shortTitle": "兼容",
+        "subtitle": "接口可以协商，别拿型号当通缉令",
+        "entries": [
+          {
+            "id": "compatibility.gift",
+            "label": "礼貌不必加办深交套餐",
+            "text": "店员记住口味时，你选了保留一点距离。接住善意，但不强行展开，也是一种分寸；一杯熟客咖啡不捆绑人生采访。",
+            "source": {
+              "ruleId": "compatibility.gift:coffee-familiar",
+              "topic": "relationship-contribution",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q20",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "compatibility.friction",
+            "label": "“随便”使用不同字典",
+            "text": "对方说随便逛逛，你以为至少有方向；对方可能连方向也随便了。出发前最好确认两个人是不是共用一本词典。",
+            "source": {
+              "ruleId": "compatibility.friction:low",
+              "topic": "different-expectations-friction",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:low"
+              ]
+            }
+          },
+          {
+            "id": "compatibility.agreement",
+            "label": "暂停请附返场时间",
+            "text": "各自整理之前，约好什么时候接着聊。暂停是中场休息，不是把话题拖进失踪人口登记处。",
+            "source": {
+              "ruleId": "compatibility.agreement:low",
+              "topic": "relationship-repair-protocol",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "easterEgg",
+        "number": "12",
+        "title": "出厂彩蛋",
+        "shortTitle": "彩蛋",
+        "subtitle": "研发部夹带的私人零件",
+        "entries": [
+          {
+            "id": "easterEgg.signature",
+            "label": "型号限定彩蛋",
+            "text": "柜内有一层叫“没什么”的抽屉。厂家打开过一次，里面还套着七层“真的没什么”。",
+            "source": {
+              "ruleId": "easterEgg.signature:0000",
+              "topic": "model-signature-surprise",
+              "conditions": {
+                "typeKey": "0000"
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "easterEgg.habit",
+            "label": "饭后自动换上片尾字幕",
+            "text": "你选了饭后安静。如果机身有字幕，到家换拖鞋时，大概会缓缓浮出“本日人类营业到此结束，主演正在离场”。",
+            "source": {
+              "ruleId": "easterEgg.habit:dinner-own-space",
+              "topic": "after-dinner-small-ritual",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q09",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "warranty",
+        "number": "13",
+        "title": "终身保修说明",
+        "shortTitle": "保修",
+        "subtitle": "凭本人即可，不必出示优秀人类证书",
+        "entries": [
+          {
+            "id": "warranty.promise",
+            "label": "终身保修承诺",
+            "text": "本柜不以开门次数计算价值。今天即使只收藏了一阵风，也可以领到下班许可。",
+            "source": {
+              "ruleId": "warranty.promise:0000",
+              "topic": "model-unconditional-warranty",
+              "conditions": {
+                "typeKey": "0000"
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "warranty.care",
+            "label": "私人时间不收证明材料",
+            "text": "本机需要安静时，可以直接休息。人类非标制造有限公司不接受“今天不够努力所以不准下班”的私自加装条款。",
+            "source": {
+              "ruleId": "warranty.care:low",
+              "topic": "permission-to-care-for-self",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "energy:low"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

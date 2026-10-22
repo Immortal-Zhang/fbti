@@ -1,0 +1,1105 @@
+{
+  "fixture": {
+    "id": "HUM-115",
+    "label": "熟路探险车 · 25/75 型号代表",
+    "fictional": true
+  },
+  "answers": [
+    {
+      "questionId": "Q01",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q02",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q03",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q04",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q05",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q06",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q07",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q08",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q09",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q10",
+      "optionId": "d"
+    },
+    {
+      "questionId": "Q11",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q12",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q13",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q14",
+      "optionId": "c"
+    },
+    {
+      "questionId": "Q15",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q16",
+      "optionId": "b"
+    },
+    {
+      "questionId": "Q17",
+      "optionId": "a"
+    },
+    {
+      "questionId": "Q18",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q19",
+      "optionId": "e"
+    },
+    {
+      "questionId": "Q20",
+      "optionId": "b"
+    }
+  ],
+  "manual": {
+    "version": "pm-2",
+    "scoringVersion": "hum-1",
+    "serial": "HUM2-115-RVVXU8DLR",
+    "result": {
+      "version": "hum-1",
+      "scores": {
+        "energy": 75,
+        "expression": 75,
+        "navigation": 75,
+        "connection": 25
+      },
+      "typeKey": "1110",
+      "readings": {
+        "energy": {
+          "score": 75,
+          "band": "high",
+          "dominant": "high",
+          "intensity": 50
+        },
+        "expression": {
+          "score": 75,
+          "band": "high",
+          "dominant": "high",
+          "intensity": 50
+        },
+        "navigation": {
+          "score": 75,
+          "band": "high",
+          "dominant": "high",
+          "intensity": 50
+        },
+        "connection": {
+          "score": 25,
+          "band": "low",
+          "dominant": "low",
+          "intensity": 50
+        }
+      },
+      "fingerprint": "hum-1-39263048"
+    },
+    "device": {
+      "key": "1110",
+      "id": "HUM-115",
+      "name": "熟路探险车",
+      "positioning": "和信任的人随兴出发，沿途把感受开着窗说出来的结伴小车。",
+      "color": "#A4C4A1",
+      "ink": "#263E28",
+      "shape": "rover",
+      "concept": "宽轮距的双轮探险车，短颈上托着双目观察头，头顶伸出斜天线，车身排着细长散热孔。",
+      "tags": [
+        "老友同行",
+        "边走边想",
+        "情绪有回声"
+      ],
+      "description": "目的地可以半路改，副驾驶要通过老友认证。",
+      "strength": "熟悉以后，你常知道谁爱停下来拍照，谁其实已经走累。一起折腾过的日常，会悄悄变成一张照顾同伴的路况图。",
+      "fault": "和熟人聊嗨了就改变目的地，原本的一顿午饭开成了半日小旅行。",
+      "hidden": "能把陪伴变成一起经历的具体事情，让“我们聊聊”自然发生在路上。",
+      "environment": "适合能结伴做点小事的日常：买菜、散步、临时看个展都行。共同经历不需要惊天动地，两个人认错一次路也有回电。",
+      "warranty": "本车保修涵盖绕路、靠边和原地喝水。你是乘员，不是必须不断前进的油箱。"
+    },
+    "introduction": "目的地可以半路改，副驾驶要通过老友认证。",
+    "keywords": [
+      "老友同行",
+      "边走边想",
+      "情绪有回声"
+    ],
+    "certification": {
+      "mark": "HUM MFG. / FICTIONAL INSPECTION",
+      "label": "出厂设置审查部 · 已阅，但没完全理解",
+      "disclaimer": "虚构产品标识，仅供娱乐与自我探索，不代表心理测量或质量认证。"
+    },
+    "chapters": [
+      {
+        "id": "identity",
+        "number": "01",
+        "title": "产品身份",
+        "shortTitle": "身份",
+        "subtitle": "出厂设置审查部：找到本人了",
+        "entries": [
+          {
+            "id": "identity.description",
+            "label": "产品介绍",
+            "text": "目的地可以半路改，副驾驶要通过老友认证。",
+            "source": {
+              "ruleId": "identity.description:1110",
+              "topic": "identity-overview",
+              "conditions": {
+                "typeKey": "1110"
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "factory",
+        "number": "02",
+        "title": "出厂设置",
+        "shortTitle": "设置",
+        "subtitle": "旋钮都在，厂家只是不知道谁拧的",
+        "entries": [
+          {
+            "id": "factory.energy",
+            "label": "友情发电制",
+            "text": "别人聊天传递信息，你聊天还能回收电能。碰上合拍的人，废话说了半小时，机身竟然更亮了。",
+            "source": {
+              "ruleId": "factory.energy:high",
+              "topic": "energy-supply-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:high"
+              ]
+            }
+          },
+          {
+            "id": "factory.expression",
+            "label": "感受自带外接屏",
+            "text": "心里刚有动静，语气已经亮字幕。说话也是你整理感受的过程，别把实时播出的每句都装订成终稿。",
+            "source": {
+              "ruleId": "factory.expression:high",
+              "topic": "emotion-processing-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "factory.navigation",
+            "label": "灵感负责领路",
+            "text": "眼前冒出新线索时，你的行动会先探头。路线常常是走出来的，地图在后面小跑着补手续。",
+            "source": {
+              "ruleId": "factory.navigation:high",
+              "topic": "action-routing-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "factory.connection",
+            "label": "熟悉感慢炖",
+            "text": "新关系先用小火，不急着煮成知己。你需要几次实际相处；礼貌微笑是试营业，不是永久拒绝接待。",
+            "source": {
+              "ruleId": "factory.connection:low",
+              "topic": "relationship-entry-principle",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "charging",
+        "number": "03",
+        "title": "充电方式",
+        "shortTitle": "充电",
+        "subtitle": "友情供电局提醒：别接错插座",
+        "entries": [
+          {
+            "id": "charging.method",
+            "label": "散步式友情发电",
+            "text": "按你选的周五安排，找个朋友边走边聊。鞋底负责走路，话题负责松弛；绕两圈，不必得出任何人类重大结论。",
+            "source": {
+              "ruleId": "charging.method:friday-walk",
+              "topic": "restorative-activity",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q01",
+                    "min": 3,
+                    "max": 3
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "charging.drain",
+            "label": "副驾驶长期空置",
+            "text": "一个人把路走得很顺，却没人听你说刚才那家店，像风景不错但副驾驶长期空置。你想补的电里，有一部分叫共同经历。",
+            "source": {
+              "ruleId": "model:1110:charging.drain:strong",
+              "topic": "energy-draining-situation",
+              "conditions": {
+                "typeKey": "1110",
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:high"
+              ]
+            }
+          },
+          {
+            "id": "charging.signal",
+            "label": "聊天只想发预告",
+            "text": "想找人说点小事，又嫌铺垫太长。适合来段不用交代前情的陪伴，别再要求自己先播一季人物介绍。",
+            "source": {
+              "ruleId": "charging.signal:high",
+              "topic": "low-energy-visible-behavior",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:high"
+              ]
+            }
+          },
+          {
+            "id": "charging.tip",
+            "label": "假日供电请接人类",
+            "text": "你想在空出的假日找喜欢的人相处，发个轻巧邀请就行。一起吃点什么也能开机，没必要先招标一日游总承包商。",
+            "source": {
+              "ruleId": "charging.tip:day-off-company",
+              "topic": "small-energy-allocation",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q05",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "faults",
+        "number": "04",
+        "title": "故障表现",
+        "shortTitle": "故障",
+        "subtitle": "维修科已受理，暂未理解",
+        "entries": [
+          {
+            "id": "faults.navigation",
+            "label": "故障001 · 主线失去监护人",
+            "text": "准备办正事，沿途收养了三个有趣任务。忙完一圈，最初那件事仍坐在失物招领处等你。",
+            "source": {
+              "ruleId": "faults.navigation:high",
+              "topic": "task-switching-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "faults.expression",
+            "label": "故障002 · 拿铁事故现场直播",
+            "text": "按你的选择，咖啡刚洒，感受就到场。杯子少了半杯，现场可能多了一段有起承转合的液体离职演说。",
+            "source": {
+              "ruleId": "faults.expression:coffee-live",
+              "topic": "emotion-revision-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q02",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "faults.connection",
+            "label": "故障003 · 时机过期",
+            "text": "觉得对方不错，想找更自然的机会接近。等“自然”自己送上门时，那个时机已经提着包退休了。",
+            "source": {
+              "ruleId": "faults.connection:low",
+              "topic": "relationship-timing-quirk",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "prohibited",
+        "number": "05",
+        "title": "禁止操作",
+        "shortTitle": "禁忌",
+        "subtitle": "请勿替厂家验证这些离谱设计",
+        "entries": [
+          {
+            "id": "prohibited.boundary",
+            "label": "改路线不等于加新乘客",
+            "text": "愿意临时绕路，不代表愿意临时认识五个人。地图可以现场改，同行名单请先问，别把探索模式用成陌生人拼车。",
+            "source": {
+              "ruleId": "prohibited.boundary:adventure-not-strangers",
+              "topic": "connection-consent",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  },
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high",
+                "connection:low"
+              ]
+            }
+          },
+          {
+            "id": "prohibited.decisions",
+            "label": "顺路不是无限续杯",
+            "text": "禁止让‘再绕一下’连续承包后半天。新去处可以先试一站，别把原本的一顿饭开成同行者尚未同意的省际班车。",
+            "source": {
+              "ruleId": "model:1110:prohibited.decisions:strong",
+              "topic": "decision-load-boundary",
+              "conditions": {
+                "typeKey": "1110",
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "hidden",
+        "number": "06",
+        "title": "隐藏功能",
+        "shortTitle": "隐藏",
+        "subtitle": "研发部拒绝署名，但功能确实存在",
+        "entries": [
+          {
+            "id": "hidden.practice",
+            "label": "路上缺什么，现场找办法",
+            "text": "你愿意把部分需要留到路上解决。条件变了，也较容易就地接招；行李少带一点，办法可以到了再长出来。",
+            "source": {
+              "ruleId": "hidden.practice:luggage-onsite",
+              "topic": "practical-creative-strength",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q11",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "hidden.connection",
+            "label": "熟人路况记忆",
+            "text": "熟悉以后，你常知道谁爱停下来拍照，谁其实已经走累。一起折腾过的日常，会悄悄变成一张照顾同伴的路况图。",
+            "source": {
+              "ruleId": "model:1110:hidden.connection:strong",
+              "topic": "social-observation-strength",
+              "conditions": {
+                "typeKey": "1110",
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "warning",
+        "number": "07",
+        "title": "情绪预警系统",
+        "shortTitle": "预警",
+        "subtitle": "不是诊断，是机身冒出的日常小纸条",
+        "entries": [
+          {
+            "id": "warning.normal",
+            "label": "正常 · 感受正在流通",
+            "text": "开心和失望能自然传出来，别人也接得上。表达是一扇开着的窗，不必每次开窗都举行精彩演讲。",
+            "source": {
+              "ruleId": "warning.normal:high",
+              "topic": "ordinary-emotion-baseline",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "warning.mild",
+            "label": "留意 · 语速开始抢跑",
+            "text": "如果同一句越说越快、又说一遍，留个能接话的停顿。你的重点不用追着自己的声音跑马拉松。",
+            "source": {
+              "ruleId": "warning.mild:high",
+              "topic": "early-emotion-change",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "warning.low",
+            "label": "低电 · 话很多，岸很远",
+            "text": "说了很多却越来越抓不住重点时，先暂停这场交流。音量不是船桨，再划几句也未必能靠岸。",
+            "source": {
+              "ruleId": "warning.low:high",
+              "topic": "depleted-emotion-change",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "warning.recovery",
+            "label": "找一个熟悉的收件人",
+            "text": "找信任的人，说今天最需要被接住的那件事。不用召开全体熟人听证会，一个知道怎么接话的人就够了。",
+            "source": {
+              "ruleId": "warning.recovery:trusted-voice",
+              "topic": "support-when-depleted",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  },
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 39
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high",
+                "connection:low"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "number": "08",
+        "title": "社交连接指南",
+        "shortTitle": "连接",
+        "subtitle": "请先阅读，再伸手戳这台人类",
+        "entries": [
+          {
+            "id": "social.start",
+            "label": "邻居寒暄，勿升级户口普查",
+            "text": "你选择给新相遇留些距离。对方可以聊一个小话题，日后碰面再接；夸过帆布包，不代表获准检查包里的人生。",
+            "source": {
+              "ruleId": "social.start:neighbor-next-time",
+              "topic": "relationship-opening-method",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q04",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "social.response",
+            "label": "先听，再选维修套餐",
+            "text": "先听完，再问要陪着说还是一起想办法。不是每句情绪都在招聘顾问，有时对方只想把话稳稳放下来。",
+            "source": {
+              "ruleId": "social.response:high",
+              "topic": "listening-and-response-request",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "social.boundary",
+            "label": "陪伴不是全程待命",
+            "text": "本机喜欢有人一起走，请把想碰头说成具体邀请，别只发一个远方风景等人领会。同行靠商量，不靠自动跟车。",
+            "source": {
+              "ruleId": "model:1110:social.boundary:strong",
+              "topic": "availability-agreement",
+              "conditions": {
+                "typeKey": "1110",
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "environment",
+        "number": "09",
+        "title": "最佳运行环境",
+        "shortTitle": "环境",
+        "subtitle": "生存环境部：人不一定非得耐造",
+        "entries": [
+          {
+            "id": "environment.pace",
+            "label": "留一块可变形的空地",
+            "text": "重要边界固定，具体走法留点余地。安排别把每寸地都占满，临时起意交通部还需要一个掉头口。",
+            "source": {
+              "ruleId": "environment.pace:high",
+              "topic": "daily-schedule-shape",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "environment.talk",
+            "label": "散场后允许声带继续演出",
+            "text": "听完歌你很快想说，边走边聊更自在。感受可以当场带着手势出门，不必等一本精装乐评获批出版。",
+            "source": {
+              "ruleId": "environment.talk:song-live",
+              "topic": "communication-medium",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q18",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "environment.balance",
+            "label": "可碰头，也可停车",
+            "text": "适合能结伴做点小事的日常：买菜、散步、临时看个展都行。共同经历不需要惊天动地，两个人认错一次路也有回电。",
+            "source": {
+              "ruleId": "model:1110:environment.balance:strong",
+              "topic": "alone-together-rhythm",
+              "conditions": {
+                "typeKey": "1110",
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "reboot",
+        "number": "10",
+        "title": "紧急重启指南",
+        "shortTitle": "重启",
+        "subtitle": "先别拆人生，拆开一顿饭也行",
+        "entries": [
+          {
+            "id": "reboot.pause",
+            "label": "步骤1 · 暂停家具迁徙",
+            "text": "你愿意边装边找摆法，一个架子可能带动整个角落转身。先停下扩大的工程，让床保住今天的常住地址。",
+            "source": {
+              "ruleId": "reboot.pause:shelf-moving",
+              "topic": "repair-step-stop",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q03",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "reboot.offload",
+            "label": "步骤2 · 回听自己的预告片",
+            "text": "录一小段话，听一遍，再写个标题。把真正想处理的那件事剪出来，今晚不用上映全部导演加长版。",
+            "source": {
+              "ruleId": "reboot.offload:high",
+              "topic": "repair-step-offload",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          },
+          {
+            "id": "reboot.restore",
+            "label": "步骤3 · 把补给端上桌",
+            "text": "找舒服的人吃点东西或下楼走走，独自去也行。讨论半小时“我们都该休息”，并不等于真的给身体充了电。",
+            "source": {
+              "ruleId": "reboot.restore:high",
+              "topic": "repair-step-body-basics",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:high"
+              ]
+            }
+          },
+          {
+            "id": "reboot.resume",
+            "label": "步骤4 · 只宣布一个小动作",
+            "text": "把准备开始的第一件小事告诉身边人。只发布这一步，不用喝口水就顺便宣布接下来三十天的全球巡演。",
+            "source": {
+              "ruleId": "reboot.resume:talk-through-one",
+              "topic": "repair-step-next-action",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  },
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high",
+                "navigation:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "compatibility",
+        "number": "11",
+        "title": "兼容性说明",
+        "shortTitle": "兼容",
+        "subtitle": "接口可以协商，别拿型号当通缉令",
+        "entries": [
+          {
+            "id": "compatibility.gift",
+            "label": "礼貌不必加办深交套餐",
+            "text": "店员记住口味时，你选了保留一点距离。接住善意，但不强行展开，也是一种分寸；一杯熟客咖啡不捆绑人生采访。",
+            "source": {
+              "ruleId": "compatibility.gift:coffee-familiar",
+              "topic": "relationship-contribution",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "connection",
+                    "min": 0,
+                    "max": 60
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q20",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "compatibility.friction",
+            "label": "转弯之前请打灯",
+            "text": "你看见了新东西，对方却可能以为原计划被扔了。说一句为什么想转弯，能省掉一场关于尊重的车内广播。",
+            "source": {
+              "ruleId": "compatibility.friction:high",
+              "topic": "different-expectations-friction",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "navigation",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "navigation:high"
+              ]
+            }
+          },
+          {
+            "id": "compatibility.agreement",
+            "label": "让对方复述一下收到了什么",
+            "text": "说完一轮，听听对方理解到哪儿。你们要对齐的是意思，不是比谁能在一分钟内搬出更多汉字。",
+            "source": {
+              "ruleId": "compatibility.agreement:high",
+              "topic": "relationship-repair-protocol",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "expression",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "expression:high"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "easterEgg",
+        "number": "12",
+        "title": "出厂彩蛋",
+        "shortTitle": "彩蛋",
+        "subtitle": "研发部夹带的私人零件",
+        "entries": [
+          {
+            "id": "easterEgg.signature",
+            "label": "型号限定彩蛋",
+            "text": "本车最常见的导航指令是‘来都来了’。最稳定的零件，是副驾驶那几个熟悉的人。",
+            "source": {
+              "ruleId": "easterEgg.signature:1110",
+              "topic": "model-signature-surprise",
+              "conditions": {
+                "typeKey": "1110"
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "easterEgg.habit",
+            "label": "饭局番外篇自动开播",
+            "text": "你选了散场继续聊，设备可能带饭后返场开关。菜都进了保鲜盒，那个笑话还在聊天框里申请第三次加热。",
+            "source": {
+              "ruleId": "easterEgg.habit:dinner-sequel",
+              "topic": "after-dinner-small-ritual",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 40,
+                    "max": 100
+                  }
+                ],
+                "answers": [
+                  {
+                    "questionId": "Q09",
+                    "min": 3,
+                    "max": 4
+                  }
+                ]
+              },
+              "claims": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "warranty",
+        "number": "13",
+        "title": "终身保修说明",
+        "shortTitle": "保修",
+        "subtitle": "凭本人即可，不必出示优秀人类证书",
+        "entries": [
+          {
+            "id": "warranty.promise",
+            "label": "终身保修承诺",
+            "text": "本车保修涵盖绕路、靠边和原地喝水。你是乘员，不是必须不断前进的油箱。",
+            "source": {
+              "ruleId": "warranty.promise:1110",
+              "topic": "model-unconditional-warranty",
+              "conditions": {
+                "typeKey": "1110"
+              },
+              "claims": []
+            }
+          },
+          {
+            "id": "warranty.care",
+            "label": "需要回应不算欠费",
+            "text": "想找人陪就开口，想被接住也可以说明。友情供电局接受正常需求，不要求你先表演十分钟不需要任何人。",
+            "source": {
+              "ruleId": "warranty.care:high",
+              "topic": "permission-to-care-for-self",
+              "conditions": {
+                "scores": [
+                  {
+                    "dimension": "energy",
+                    "min": 61,
+                    "max": 100
+                  }
+                ]
+              },
+              "claims": [
+                "energy:high"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
