@@ -84,7 +84,7 @@ function Reader({
         <main id="main" className="pm-book">
           <div className="pm-book-preface">
             <span className="mono">
-              THE HUMAN USER MANUAL / COMPLETE EDITION
+              FBTI / FACTORY BUG TYPE INDICATOR
             </span>
             <span>13 章厂家口供。</span>
           </div>

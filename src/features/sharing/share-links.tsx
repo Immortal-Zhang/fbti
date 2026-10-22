@@ -38,7 +38,7 @@ export function ShareLinks({
     }
     try {
       await navigator.share({
-        title: "你哪个厂的？",
+        title: "FBTI",
         text:
           packet.kind === "invite"
             ? "你真的了解这台人类设备吗？来做8题朋友观察。"

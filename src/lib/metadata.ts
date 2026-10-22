@@ -26,7 +26,7 @@ export function routeMetadata(
                 url: `${SITE_URL}/social-card.png`,
                 width: 1200,
                 height: 630,
-                alt: "你哪个厂的？：你可能不了解自己，但你的出厂设置已经暴露了。",
+                alt: "FBTI · Factory Bug Type Indicator · 人类出厂 BUG 类型指标。",
               },
             ],
           },

@@ -21,13 +21,12 @@ export default function Home() {
       <main id="main">
         <section className="hero">
           <div className="hero-copy">
-            <span className="eyebrow">HUMAN USER MANUAL / VOL. 01</span>
-            <h1 aria-label="你哪个厂的？">
-              你哪个
-              <br />
-              <span>厂的？</span>
+            <span className="eyebrow">Factory Bug Type Indicator</span>
+            <h1 aria-label="FBTI">
+              <span>FBTI</span>
               <sup aria-hidden="true">01</sup>
             </h1>
+            <p className="hero-product-name">人类出厂 BUG 类型指标</p>
             <p className="hero-tagline">
               你可能不了解自己，
               <br />

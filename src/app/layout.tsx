@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import { JumpLink } from "@/components/jump-link";
 import { routeMetadata } from "@/lib/metadata";
 
-export const metadata = routeMetadata("你哪个厂的？", "/");
+export const metadata = routeMetadata("FBTI", "/");
 export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#f6f3e9" };
 
 export default function RootLayout({

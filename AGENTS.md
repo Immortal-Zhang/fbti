@@ -1,10 +1,10 @@
-# 你哪个厂的？ · Human User Manual
+# FBTI · Factory Bug Type Indicator
 
 ## Current scope
 
-The user authorized publication to the new public repository `Immortal-Zhang/which-factory`, with a concise bilingual, image-led README. Upload this project only, including the regression fixtures required by its tests. Keep personal paths, local work notes, build caches and historical QA artifacts out of Git. This does not authorize website hosting or expanding product features.
+The user authorized renaming the public repository to `Immortal-Zhang/fbti` and publishing this brand update, with separate concise, image-led Chinese and English READMEs. Upload this project only, including the regression fixtures required by its tests. Keep personal paths, local work notes, build caches and historical QA artifacts out of Git. This does not authorize website hosting or expanding product features.
 
-The product name is 你哪个厂的？. Preserve HUM identifiers, scoring, question/model/copy contracts, saved results and the current core flows. Do not start another development phase automatically.
+The product name is FBTI (Factory Bug Type Indicator; 人类出厂 BUG 类型指标). Preserve HUM identifiers, scoring, question/model/copy contracts, saved results and the current core flows. Do not start another development phase automatically.
 
 ## Working agreements
 

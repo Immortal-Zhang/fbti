@@ -1,8 +1,10 @@
-# Which Factory Made You?
+# FBTI
+
+Factory Bug Type Indicator
 
 [简体中文](README.md)
 
-![Which Factory Made You?](docs/images/cover.png)
+![FBTI](docs/images/cover.png)
 
 **An absurdly earnest owner's manual for your human hardware.**
 
@@ -28,8 +30,8 @@
 Node.js 24 · Next.js · React · TypeScript
 
 ```sh
-git clone https://github.com/Immortal-Zhang/which-factory.git
-cd which-factory
+git clone https://github.com/Immortal-Zhang/fbti.git
+cd fbti
 npm ci
 npm run dev -- --port 3127
 ```

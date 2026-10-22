@@ -110,7 +110,7 @@ export function PosterStudio({
           ...result,
           textCount: result.placements.length,
         });
-        const file = new File([result.blob], "human-user-manual.png", {
+        const file = new File([result.blob], "fbti.png", {
           type: "image/png",
         });
         try {
@@ -147,7 +147,7 @@ export function PosterStudio({
         files: [
           new File([current.blob], `HUM-${format}.png`, { type: "image/png" }),
         ],
-        title: "你哪个厂的？｜我的出厂说明书",
+        title: "FBTI｜我的出厂说明书",
       });
       setMessage("已交给系统分享面板，图片仍可在这里保存。");
     } catch (cause) {

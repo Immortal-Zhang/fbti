@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Brand() {
   return (
-    <Link href="/" className="brand" aria-label="你哪个厂的？首页">
+    <Link href="/" className="brand" aria-label="FBTI首页">
       <span className="brand-mark" aria-hidden="true">
         <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
           <rect width="64" height="64" rx="16" fill="#254bfa" />
@@ -15,7 +15,7 @@ export function Brand() {
         </svg>
       </span>
       <span>
-        你哪个厂的？<small>HUMAN USER MANUAL</small>
+        FBTI<small>Factory Bug Type Indicator</small>
       </span>
     </Link>
   );

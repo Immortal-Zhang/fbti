@@ -1,6 +1,6 @@
-export const SITE_TITLE = "你哪个厂的？";
+export const SITE_TITLE = "FBTI";
 export const SITE_DESCRIPTION =
-  "你可能不了解自己，但你的出厂设置已经暴露了。原创趣味人格测试、人类设备说明书、好友互测与个性化分享海报。虚构公司，认真娱乐。";
+  "FBTI · Factory Bug Type Indicator · 人类出厂 BUG 类型指标。你可能不了解自己，但你的出厂设置已经暴露了。原创趣味人格测试、人类设备说明书、好友互测与个性化分享海报。虚构公司，认真娱乐。";
 
 export function parsePublicSiteUrl(input: string | undefined): string | null {
   if (!input?.trim()) return null;

@@ -153,8 +153,8 @@ export async function renderPoster(
     ctx.arc(32, 17, 4, 0, Math.PI * 2);
     ctx.fill();
     ctx.restore();
-    text("brand", "你哪个厂的？", 156, 69, 480, 48, 32, 32, 700);
-    text("company", "人类非标制造有限公司", 156, 112, 550, 32, 20);
+    text("brand", "FBTI", 156, 69, 480, 48, 32, 32, 700);
+    text("company", "Factory Bug Type Indicator", 156, 112, 550, 32, 20);
     text("edition", edition, 746, 76, 270, 65, 23, 21, 600);
     line(64, 164, 952);
   }
@@ -173,7 +173,7 @@ export async function renderPoster(
     );
     text(
       "site",
-      host || "你哪个厂的？ · 检测你的出厂设置",
+      host || "FBTI · 人类出厂 BUG 类型指标",
       64,
       height - 73,
       952,

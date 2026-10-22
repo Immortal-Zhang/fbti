@@ -1,8 +1,10 @@
-# 你哪个厂的？
+# FBTI
+
+人类出厂 BUG 类型指标
 
 [English](README_EN.md)
 
-![你哪个厂的？](docs/images/cover.png)
+![FBTI](docs/images/cover.png)
 
 **一本正经地胡说八道的人类设备说明书。**
 
@@ -28,8 +30,8 @@
 Node.js 24 · Next.js · React · TypeScript
 
 ```sh
-git clone https://github.com/Immortal-Zhang/which-factory.git
-cd which-factory
+git clone https://github.com/Immortal-Zhang/fbti.git
+cd fbti
 npm ci
 npm run dev -- --port 3127
 ```

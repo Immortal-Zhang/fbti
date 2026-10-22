@@ -34,7 +34,7 @@ export function ManualCover({
             <span className="mono" data-testid="result-device-id">
               {device.id}
             </span>
-            <span>你哪个厂的？ / 个人版</span>
+            <span>FBTI / 个人版</span>
           </div>
           <p className="pm-introduction">{manual.introduction}</p>
           <div className="pm-keywords">

@@ -1,3 +1,10 @@
+.hero-product-name {
+  margin: -8px 0 22px;
+  font-size: clamp(15px, 1.4vw, 20px);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
 .home-save-status {
   margin-top: 13px;
   font-size: 10px;
