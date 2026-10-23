@@ -1,5 +1,5 @@
 "use client";
-import { orderedQuestionOptions, QUESTION_COPY_REVISION } from "@/data/questions/presentation";
+import { orderedQuestionOptions, retainedQuestionOption, QUESTION_COPY_REVISION } from "@/data/questions/presentation";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
@@ -42,6 +42,7 @@ function Observation({
   const selected = session.progress.answers.find(
     (a) => a.questionId === q.id,
   )?.optionId;
+  const retained = retainedQuestionOption(q, selected);
   useEffect(() => {
     if (started) title.current?.focus({ preventScroll: true });
   }, [started, session.progress.currentIndex]);
@@ -156,7 +157,12 @@ function Observation({
           <h1 ref={title} tabIndex={-1}>
             {q.prompt}
           </h1>
-          <fieldset className="quiz-options" disabled={submitting}>
+          {retained && (
+            <div className="quiz-notice" id="retained-answer" role="status">
+              <p>已保留上次选择：{retained.text}。可直接继续，或改选下方三项。</p>
+            </div>
+          )}
+          <fieldset className="quiz-options" disabled={submitting} aria-describedby={retained ? "retained-answer" : undefined}>
             <legend className="sr-only">选择最符合你观察的情况</legend>
             {orderedQuestionOptions(q).map((option, i) => (
               <label

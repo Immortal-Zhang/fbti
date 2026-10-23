@@ -1,5 +1,5 @@
 "use client";
-import { orderedQuestionOptions, QUESTION_COPY_REVISION } from "@/data/questions/presentation";
+import { orderedQuestionOptions, retainedQuestionOption, QUESTION_COPY_REVISION } from "@/data/questions/presentation";
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -23,6 +23,7 @@ export function QuizExperience() {
     (answer) => answer.questionId === question.id,
   )?.optionId;
   const count = progress.answers.length;
+  const retained = retainedQuestionOption(question, selected);
   const lastQuestion = progress.currentIndex === SELF_QUESTIONS.length - 1;
 
   useEffect(() => {
@@ -172,7 +173,12 @@ export function QuizExperience() {
                 <h1 id="question-title" ref={titleRef} tabIndex={-1}>
                   {question.prompt}
                 </h1>
-                <fieldset className="quiz-options" disabled={isSubmitting}>
+                {retained && (
+                  <div className="quiz-notice" id="retained-answer" role="status">
+                    <p>已保留上次选择：{retained.text}。可直接继续，或改选下方三项。</p>
+                  </div>
+                )}
+                <fieldset className="quiz-options" disabled={isSubmitting} aria-describedby={retained ? "retained-answer" : undefined}>
                   <legend className="visually-hidden">
                     选择最接近你的情况
                   </legend>

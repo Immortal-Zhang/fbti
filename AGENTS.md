@@ -2,7 +2,7 @@
 
 ## Current scope
 
-Current authorized edit: simplify all self-test and friend-observation question wording and make choices easier to distinguish, then publish. Preserve stored question/option IDs, raw values, reverse scoring and source option order; report serials depend on that order. Wording/display revision plain-2 is independent of hum-1/friend-1 scoring.
+Current authorized edit: present exactly three clearly different choices per self-test and friend-observation question, then publish. clear-3 presents original raw values 0/2/4 with dedicated short copy; retain all five original option IDs/values and source order for saved answers and report serials. Show a retained-answer notice for old 1/3 choices and allow continuation without rounding or resetting them. hum-1/friend-1 scoring and the 16 models stay unchanged.
 
 The user authorized renaming the public repository to `Immortal-Zhang/fbti` and publishing this brand update, with separate concise, image-led Chinese and English READMEs. Upload this project only, including the regression fixtures required by its tests. Keep personal paths, local work notes, build caches and historical QA artifacts out of Git. The latest user request authorizes public website hosting so anyone can open the link and take the test. Use the existing GitHub repository and preserve current functionality; do not expand product features.
 
