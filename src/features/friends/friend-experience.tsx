@@ -1,4 +1,5 @@
 "use client";
+import { orderedQuestionOptions, QUESTION_COPY_REVISION } from "@/data/questions/presentation";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
@@ -150,14 +151,14 @@ function Observation({
             )}
           </div>
         )}
-        <section className="quiz-question-panel" key={q.id}>
+        <section className="quiz-question-panel" data-question-copy={QUESTION_COPY_REVISION} key={q.id}>
           <p className="friend-scene">{q.scene}</p>
           <h1 ref={title} tabIndex={-1}>
             {q.prompt}
           </h1>
           <fieldset className="quiz-options" disabled={submitting}>
             <legend className="sr-only">选择最符合你观察的情况</legend>
-            {q.options.map((option, i) => (
+            {orderedQuestionOptions(q).map((option, i) => (
               <label
                 key={option.id}
                 className={`quiz-option ${selected === option.id ? "is-selected" : ""}`}

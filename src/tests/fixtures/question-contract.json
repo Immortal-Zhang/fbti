@@ -1,0 +1,762 @@
+{
+  "self": [
+    {
+      "id": "Q01",
+      "dimension": "energy",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 2
+        },
+        {
+          "id": "b",
+          "value": 0
+        },
+        {
+          "id": "c",
+          "value": 4
+        },
+        {
+          "id": "d",
+          "value": 1
+        },
+        {
+          "id": "e",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "dimension": "expression",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 3
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 4
+        },
+        {
+          "id": "d",
+          "value": 0
+        },
+        {
+          "id": "e",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "dimension": "navigation",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 4
+        },
+        {
+          "id": "b",
+          "value": 0
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "dimension": "connection",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 1
+        },
+        {
+          "id": "b",
+          "value": 4
+        },
+        {
+          "id": "c",
+          "value": 0
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "dimension": "energy",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 3
+        },
+        {
+          "id": "c",
+          "value": 1
+        },
+        {
+          "id": "d",
+          "value": 4
+        },
+        {
+          "id": "e",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "dimension": "expression",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 4
+        },
+        {
+          "id": "b",
+          "value": 2
+        },
+        {
+          "id": "c",
+          "value": 0
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "dimension": "navigation",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 1
+        },
+        {
+          "id": "b",
+          "value": 4
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 0
+        },
+        {
+          "id": "e",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "dimension": "connection",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 2
+        },
+        {
+          "id": "b",
+          "value": 0
+        },
+        {
+          "id": "c",
+          "value": 3
+        },
+        {
+          "id": "d",
+          "value": 1
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "dimension": "energy",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 3
+        },
+        {
+          "id": "c",
+          "value": 1
+        },
+        {
+          "id": "d",
+          "value": 4
+        },
+        {
+          "id": "e",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "dimension": "expression",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 4
+        },
+        {
+          "id": "b",
+          "value": 2
+        },
+        {
+          "id": "c",
+          "value": 0
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "dimension": "navigation",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 1
+        },
+        {
+          "id": "b",
+          "value": 3
+        },
+        {
+          "id": "c",
+          "value": 0
+        },
+        {
+          "id": "d",
+          "value": 2
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "dimension": "connection",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 3
+        },
+        {
+          "id": "b",
+          "value": 0
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 4
+        },
+        {
+          "id": "e",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "dimension": "energy",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 2
+        },
+        {
+          "id": "b",
+          "value": 4
+        },
+        {
+          "id": "c",
+          "value": 1
+        },
+        {
+          "id": "d",
+          "value": 0
+        },
+        {
+          "id": "e",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "dimension": "expression",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 3
+        },
+        {
+          "id": "c",
+          "value": 1
+        },
+        {
+          "id": "d",
+          "value": 4
+        },
+        {
+          "id": "e",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "dimension": "navigation",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 4
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 3
+        },
+        {
+          "id": "d",
+          "value": 0
+        },
+        {
+          "id": "e",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "dimension": "connection",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 1
+        },
+        {
+          "id": "b",
+          "value": 3
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 4
+        },
+        {
+          "id": "e",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "dimension": "energy",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 3
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 4
+        },
+        {
+          "id": "d",
+          "value": 2
+        },
+        {
+          "id": "e",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "dimension": "expression",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 2
+        },
+        {
+          "id": "b",
+          "value": 4
+        },
+        {
+          "id": "c",
+          "value": 1
+        },
+        {
+          "id": "d",
+          "value": 0
+        },
+        {
+          "id": "e",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "Q19",
+      "dimension": "navigation",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 2
+        },
+        {
+          "id": "c",
+          "value": 4
+        },
+        {
+          "id": "d",
+          "value": 1
+        },
+        {
+          "id": "e",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "dimension": "connection",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 4
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 3
+        },
+        {
+          "id": "d",
+          "value": 0
+        },
+        {
+          "id": "e",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "friend": [
+    {
+      "id": "F01",
+      "dimension": "energy",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "dimension": "expression",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "dimension": "navigation",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "dimension": "connection",
+      "reverse": false,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "dimension": "energy",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "dimension": "expression",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "dimension": "navigation",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "dimension": "connection",
+      "reverse": true,
+      "options": [
+        {
+          "id": "a",
+          "value": 0
+        },
+        {
+          "id": "b",
+          "value": 1
+        },
+        {
+          "id": "c",
+          "value": 2
+        },
+        {
+          "id": "d",
+          "value": 3
+        },
+        {
+          "id": "e",
+          "value": 4
+        }
+      ]
+    }
+  ]
+}

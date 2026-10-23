@@ -1,3 +1,4 @@
+import { orderedQuestionOptions, QUESTION_COPY_REVISION } from "@/data/questions/presentation";
 import { routeMetadata } from "@/lib/metadata";
 import Link from "next/link";
 import { Header, Footer } from "@/components/brand";
@@ -10,7 +11,7 @@ export default function QuestionsPage() {
   return (
     <>
       <Header />
-      <main id="main" className="questions-main">
+      <main id="main" className="questions-main" data-question-copy={QUESTION_COPY_REVISION}>
         <div className="questions-intro">
           <Link href="/devices" className="text-link">
             ← 返回设备档案
@@ -42,7 +43,7 @@ export default function QuestionsPage() {
               <div className="question-body">
                 <h2>{question.prompt}</h2>
                 <ol>
-                  {question.options.map((option, optionIndex) => (
+                  {orderedQuestionOptions(question).map((option, optionIndex) => (
                     <li key={option.id}>
                       <span className="option-letter mono">
                         {String.fromCharCode(65 + optionIndex)}

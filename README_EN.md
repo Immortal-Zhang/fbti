@@ -36,7 +36,7 @@ npm ci
 npm run dev -- --port 3127
 ```
 
-Open [127.0.0.1:3127](http://127.0.0.1:3127). `npm run check` runs lint, type checking, 484 tests and the production build.
+Open [127.0.0.1:3127](http://127.0.0.1:3127). `npm run check` runs lint, type checking, 486 tests and the production build.
 
 Chinese UI. No account, database or AI API required. For entertainment, not psychological diagnosis.
 

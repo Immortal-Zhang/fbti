@@ -1,4 +1,5 @@
 "use client";
+import { orderedQuestionOptions, QUESTION_COPY_REVISION } from "@/data/questions/presentation";
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -158,6 +159,7 @@ export function QuizExperience() {
               )}
               <section
                 className="quiz-question"
+                data-question-copy={QUESTION_COPY_REVISION}
                 key={question.id}
                 aria-labelledby="question-title"
               >
@@ -174,7 +176,7 @@ export function QuizExperience() {
                   <legend className="visually-hidden">
                     选择最接近你的情况
                   </legend>
-                  {question.options.map((option, i) => (
+                  {orderedQuestionOptions(question).map((option, i) => (
                     <label
                       className={`quiz-option ${selected === option.id ? "is-selected" : ""}`}
                       key={option.id}
@@ -235,7 +237,7 @@ export function QuizExperience() {
               </div>
               <p className="quiz-bottom-note">
                 {!selected
-                  ? "选一个更接近你的答案，就可以继续。"
+                  ? "选最常见的反应，不必每句都符合。"
                   : lastQuestion && count < 20
                     ? "还有未回答的题目，请回到上一题补齐。"
                     : lastQuestion
