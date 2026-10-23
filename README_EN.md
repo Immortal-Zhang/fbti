@@ -2,7 +2,7 @@
 
 Factory Bug Type Indicator
 
-[简体中文](README.md)
+[简体中文](README.md) · [Try it online](https://immortal-zhang.github.io/fbti/)
 
 ![FBTI](docs/images/cover.png)
 
@@ -36,10 +36,10 @@ npm ci
 npm run dev -- --port 3127
 ```
 
-Open [127.0.0.1:3127](http://127.0.0.1:3127). `npm run check` runs lint, type checking, 480 tests and the production build.
+Open [127.0.0.1:3127](http://127.0.0.1:3127). `npm run check` runs lint, type checking, 484 tests and the production build.
 
 Chinese UI. No account, database or AI API required. For entertainment, not psychological diagnosis.
 
 [Scoring (Chinese)](docs/SCORING.md) · [Deployment](docs/DEPLOYMENT.md)
 
-Runs locally; not hosted yet.
+Open the online link to take the test—no installation needed.

@@ -2,7 +2,7 @@
 
 人类出厂 BUG 类型指标
 
-[English](README_EN.md)
+[English](README_EN.md) · [在线体验](https://immortal-zhang.github.io/fbti/)
 
 ![FBTI](docs/images/cover.png)
 
@@ -36,10 +36,10 @@ npm ci
 npm run dev -- --port 3127
 ```
 
-打开 [127.0.0.1:3127](http://127.0.0.1:3127)。`npm run check` 执行代码规范、类型、480项测试及构建检查。
+打开 [127.0.0.1:3127](http://127.0.0.1:3127)。`npm run check` 执行代码规范、类型、484项测试及构建检查。
 
 中文界面；无需账号、数据库或AI API。仅供娱乐，不是心理诊断。
 
 [计分规则](docs/SCORING.md) · [部署说明](docs/DEPLOYMENT.md)
 
-本地可运行，尚未托管。
+直接打开在线链接即可测试，无需安装。

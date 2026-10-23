@@ -2,7 +2,7 @@
 
 ## Current scope
 
-The user authorized renaming the public repository to `Immortal-Zhang/fbti` and publishing this brand update, with separate concise, image-led Chinese and English READMEs. Upload this project only, including the regression fixtures required by its tests. Keep personal paths, local work notes, build caches and historical QA artifacts out of Git. This does not authorize website hosting or expanding product features.
+The user authorized renaming the public repository to `Immortal-Zhang/fbti` and publishing this brand update, with separate concise, image-led Chinese and English READMEs. Upload this project only, including the regression fixtures required by its tests. Keep personal paths, local work notes, build caches and historical QA artifacts out of Git. The latest user request authorizes public website hosting so anyone can open the link and take the test. Use the existing GitHub repository and preserve current functionality; do not expand product features.
 
 The product name is FBTI (Factory Bug Type Indicator; 人类出厂 BUG 类型指标). Preserve HUM identifiers, scoring, question/model/copy contracts, saved results and the current core flows. Do not start another development phase automatically.
 

@@ -31,3 +31,5 @@ coverage/
 !/docs/qa/abstract-copy/samples/HUM-*.json
 !/docs/qa/abstract-copy/samples/boundary-*.json
 !/docs/qa/abstract-copy/samples/trajectory-*.json
+
+# Export build output is hosted as a Pages artifact.

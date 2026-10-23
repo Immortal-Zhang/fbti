@@ -1,6 +1,7 @@
 "use client";
 import { useSyncExternalStore } from "react";
 import { decodeHash } from "./snapshot";
+import { normalizeAppPath } from "@/lib/paths";
 
 function subscribe(listener: () => void) {
   window.addEventListener("hashchange", listener);
@@ -10,7 +11,8 @@ function subscribe(listener: () => void) {
     window.removeEventListener("popstate", listener);
   };
 }
-const getLocation = () => `${window.location.pathname}${window.location.hash}`;
+const getLocation = () =>
+  `${normalizeAppPath(window.location.pathname) ?? window.location.pathname}${window.location.hash}`;
 const getOrigin = () => window.location.origin;
 const server = () => null;
 export function usePacket(expectedPath: "/s" | "/friends" | "/compare") {
